@@ -1,0 +1,78 @@
+body{
+background-color: rgb(198, 228, 238);
+}
+
+.weisses-feld{
+    width: 700px;
+    height: 880px;
+    border-radius: 50px ;
+    box-shadow:  10px 10px 20px rgb(255, 255, 255);
+    padding: 40px 75px 0 75px;
+    margin: auto;
+    background-color: rgb(241, 235, 235);
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+
+
+.Beschreibung{
+color: black;
+
+}
+
+
+.profilbild{
+  border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+
+.kopfbereich {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px; 
+}
+
+.kopfinhalt {
+    flex: 1;
+}
+
+.Lebenslauf{
+    background-color: rgb(198, 228, 238);
+    font-size: 25px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px black;
+}
+
+.Motivationsschreiben{
+    background-color: rgb(198, 228, 238);
+    font-size: 25px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px black;
+}
+
+.Zeugnisse-Sekundarstufe{
+    background-color: rgb(198, 228, 238);
+    font-size: 25px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px black;
+}
+
+
