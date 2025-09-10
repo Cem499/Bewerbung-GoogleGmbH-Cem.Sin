@@ -1,12 +1,23 @@
-body{
-background-color: rgb(198, 228, 238);
+body {
+  background: linear-gradient(270deg, rgb(198, 228, 238), rgb(241, 235, 235), rgb(198, 228, 238));
+  background-size: 600% 600%;
+  animation: gradientMove 5s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 .weisses-feld{
     width: 700px;
     height: 880px;
     border-radius: 50px ;
-    box-shadow:  10px 10px 20px rgb(255, 255, 255);
+    box-shadow:  10px 10px 20px lightslategrey;
     padding: 40px 75px 0 75px;
     margin: auto;
     background-color: rgb(241, 235, 235);
@@ -20,7 +31,14 @@ background-color: rgb(198, 228, 238);
 color: black;
 
 }
-
+.Lebenslauf,
+.Motivationsschreiben,
+.Zeugnisse-Sekundarstufe,
+.Stellwerktest,
+.Multicheck {
+  display: block;
+  margin-bottom: 15px;
+}
 
 .profilbild{
   border-radius: 50%;
@@ -29,6 +47,7 @@ color: black;
     object-fit: cover;
     display: block;
     margin: 0 0 0 auto;
+    box-shadow:  10px 10px 20px lightslategray;
 }
 
 
@@ -46,33 +65,68 @@ color: black;
     background-color: rgb(198, 228, 238);
     font-size: 25px;
     border-radius: 10px;
-    margin: auto;
+    margin: auto 0 0 0;
     padding: 5px;
     color: black;
     text-decoration: none;
     border: solid 2px black;
+    box-shadow:  10px 10px 20px lightslategray;
+    width: 400px;
+
 }
 
 .Motivationsschreiben{
     background-color: rgb(198, 228, 238);
     font-size: 25px;
     border-radius: 10px;
-    margin: auto;
+    margin: auto 0 0 0;
     padding: 5px;
     color: black;
     text-decoration: none;
     border: solid 2px black;
+    box-shadow:  10px 10px 20px lightslategray;
+    width: 400px;
 }
 
 .Zeugnisse-Sekundarstufe{
     background-color: rgb(198, 228, 238);
     font-size: 25px;
     border-radius: 10px;
-    margin: auto;
+    margin: auto 0 0 0;
     padding: 5px;
     color: black;
     text-decoration: none;
     border: solid 2px black;
+    box-shadow:  10px 10px 20px lightslategray;
+    width: 400px;
 }
 
 
+.Stellwerktest{
+    background-color: rgb(198, 228, 238);
+    font-size: 25px;
+    border-radius: 10px;
+    margin: auto 0 0 0;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: solid 2px black;
+    box-shadow:  10px 10px 20px lightslategray;
+    width: 400px;
+}
+
+
+
+ .Multicheck{
+        background-color: rgb(198, 228, 238);
+        font-size: 25px;
+        border-radius: 10px;
+        margin: auto 0 0 0;
+        padding: 5px;
+        color: black;
+        text-decoration: none;
+        border: solid 2px black;
+        box-shadow:  10px 10px 20px lightslategray;
+        width: 400px;
+
+    }
